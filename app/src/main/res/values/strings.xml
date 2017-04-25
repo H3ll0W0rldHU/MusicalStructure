@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="welcome">Hi! What podcast would you like to listen to?</string>
+    <string name="main_description">The large play button opens the Now Playing activity and starts playing the last played podcast. At the first use, it plays a welcome message.</string>
+    <string name="last_played">Here should be the name of the last played podcast episode.</string>
+    <string name="favorites">Favorites</string>
+    <string name="find_new">Find new</string>
+    <string name="favorites_description">Here is the user\'s favorite podcasts. Clicking on the name of each podcast will open the list of the episodes of the corresponding podcast.\nThe add button below brings the user to the Find New activity.</string>
+    <string name="episodes">*Podcast name*</string>
+    <string name="episodes_description">Here is the list of the chosen podcast. Clicking on the name of each episode will open the Now Playing activity and starts playing the episode.\nTapping on the heart button will remove/add the podcast to the favorites list</string>
+    <string name="find_new_podcast">Find new podcasts</string>
+    <string name="search_hint">e.g. Android Developer Backstage</string>
+    <string name="find_new_description">The user can search for new podcasts here. Tapping on the names of the podcasts brings the user to the podcast\'s episode list.</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="current_podcast">*Current Podcast*</string>
+    <string name="current_episode">*Current Episode*</string>
+    <string name="now_playing_description">Here will be the description/summary of the current episode</string>
+</resources>

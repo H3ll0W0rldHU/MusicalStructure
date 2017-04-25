@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/radialgradientback"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/welcome"
+        android:layout_margin="8dp"
+        android:text="@string/main_description"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_play_circle_filled_black_200dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/play_button"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:text="@string/last_played"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:paddingBottom="8dp">
+
+        <Button
+            android:id="@+id/favorites"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:text="@string/favorites" />
+
+        <Button
+            android:id="@+id/find_new"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:text="@string/find_new" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
